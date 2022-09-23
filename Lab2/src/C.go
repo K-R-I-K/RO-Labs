@@ -27,7 +27,7 @@ func main() {
 	s1 := rand.NewSource(time.Now().UnixNano())
 	r1 := rand.New(s1)
 	var participants []Monk
-	numberOfParticipants := 3
+	numberOfParticipants := 15
 	var temple string
 	for i := 0; i < numberOfParticipants; i++ {
 		if i%2 == 0 {
