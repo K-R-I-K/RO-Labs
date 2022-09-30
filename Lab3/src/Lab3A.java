@@ -3,7 +3,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class Lab3A {
     private class Pot {
-        private static final int CAPACITY = 10;
+        private static final int CAPACITY = 100;
         public AtomicInteger numberOfSwallows;
         public AtomicBoolean isNeedToFill;
 
@@ -23,10 +23,9 @@ public class Lab3A {
                         throw new RuntimeException(e);
                     }
                 }
+                numberOfSwallows.incrementAndGet();
                 System.out.println(Thread.currentThread().getName() + " bring honey. " +
                         "In pot " + numberOfSwallows.get() + " swallows");
-                //System.out.println(Thread.currentThread().getName());
-                numberOfSwallows.incrementAndGet();
             }
         }
 
