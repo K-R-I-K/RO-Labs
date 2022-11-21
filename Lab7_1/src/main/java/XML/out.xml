@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE FileSystem SYSTEM "FileSystem.dtd">
+<FileSystem>
+    <Folder id="fo2" name="folder2">
+        <File id="fi3" name="file3" size="30"/>
+        <File id="fi2" name="file2" size="20"/>
+    </Folder><Folder id="fo1" name="newFolder">
+        <File id="fi1" name="newFile" size="10"/>
+    </Folder>
+    <Folder id="fo3" name="folder3">
+        <File id="fi4" name="file4" size="40"/>
+        <File id="fi6" name="file6" size="60"/>
+        <File id="fi5" name="file5" size="50"/>
+    </Folder>
+</FileSystem>

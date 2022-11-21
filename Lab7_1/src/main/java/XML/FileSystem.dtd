@@ -1,0 +1,12 @@
+<!ELEMENT FileSystem (Folder*)>
+        <!ELEMENT Folder (File*)>
+        <!ELEMENT File (#PCDATA)>
+        <!ATTLIST Folder
+                id ID #REQUIRED
+                name CDATA #REQUIRED
+                >
+        <!ATTLIST File
+                id ID #REQUIRED
+                name CDATA #REQUIRED
+                size CDATA #REQUIRED
+                >
